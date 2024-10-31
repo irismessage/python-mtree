@@ -49,6 +49,7 @@ class Type(StrEnum):
 class Keywords:
     """Represents the keywords for an entry."""
 
+    # ordered from https://man.netbsd.org/mtree.5
     cksum: Optional[str] = None
     device: Optional[Device] = None
     contents: Optional[Path] = None
